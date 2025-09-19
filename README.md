@@ -1,6 +1,7 @@
 # Hermes
 
 **Author:** Kersen
+
 **Date:** September 2025  
 
 Hermes is a Python-based assistant for scientific staff to facilitate image processing tasks.  
@@ -34,7 +35,10 @@ segmentation_tool(path) – Otsu thresholding and K-means clustering.
 capabilities_tool(query) – lists all available tools.
 
 exit_tool(query) – closes Hermes.
+
+
 ##FUNCTIONS THAT TOOLS USE
+
 located in:
 image_functions
 
@@ -47,7 +51,10 @@ fourier_analysis.fourier_texture_analysis(path) – Fourier transform visualizat
 equalize.equalization(path) – contrast correction + histogram equalization.
 
 contrast.process_contrast(path) – disk mask + logarithmic contrast.
+
+
 #CHAT
+
 ChatGUI
 
-Textbox for chat history, entry field for input, send button, <Return> binding.
+Textbox for chat history, entry field for input, send button.
